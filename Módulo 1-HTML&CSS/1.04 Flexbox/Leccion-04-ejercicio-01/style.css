@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  background-color: grey;
+  border: 5px solid red;
+}
+
+.numbers {
+  background-color: hotpink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.n1 {
+  border: 2px solid greenyellow;
+  height: 50px;
+}
+.n2 {
+  border: 2px solid greenyellow;
+}
+.n3 {
+  border: 2px solid greenyellow;
+}

@@ -1,0 +1,10 @@
+.cabecera {
+  font-size: 100px;
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+}
+body {
+  position: relative;
+  top: 100px;
+}
