@@ -1,0 +1,13 @@
+*{
+  display: inline;
+} 
+.button {
+    background-color: aquamarine;
+    width: 200px;
+    height: 45px;
+    color: black;
+  }
+  
+   .button-b {
+    background-color: grey;
+  } 
