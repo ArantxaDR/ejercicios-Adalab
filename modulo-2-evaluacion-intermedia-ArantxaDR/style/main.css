@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.title {
+  color: darkslategrey;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_intro {
+  margin-bottom: 30px;
+  width: 150px;
+}
+.form_btn {
+  width: 80px;
+  height: 25px;
+  margin-bottom: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: unset;
+}
+.form_tip,
+.form_try {
+  width: 300px;
+}
