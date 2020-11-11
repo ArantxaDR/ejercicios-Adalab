@@ -1,0 +1,40 @@
+.list_all_button {
+  width: 100px;
+  padding: 10px;
+  margin-left: 3px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  border: none;
+  color: #003b6f;
+  text-transform: uppercase;
+  font-weight: bolder;
+
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: #003b6f;
+    color: aliceblue;
+    transform: rotateX(0deg) translateY(-10%);
+  }
+}
+.fav_list_delete {
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 4px;
+  background-color: #003b6f;
+  border-radius: 20px;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: aliceblue;
+    transform: scale3d(0.7);
+  }
+  &_icon {
+    size: 20px;
+    color: gray;
+    font-weight: 100px;
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: dodgerblue;
+  margin-top: 15px;
+  text-shadow: 2px 0 #aaa, 3px 6px 2px #777, 12px 12px 8px #444;
+  &_icon {
+    margin-right: 100px;
+  }
+}
