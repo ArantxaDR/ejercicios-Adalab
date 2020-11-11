@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: aqua;
+}
+.App-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.App-input {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
