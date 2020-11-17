@@ -1,0 +1,17 @@
+.form {
+  border: 3px solid black;
+  margin-left: 600px;
+  margin-top: 100px;
+  height: 400px;
+  width: 300px;
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.area {
+  width: 160px;
+  height: 200px;
+}
