@@ -3,6 +3,7 @@ import "../stylesheets/App.css";
 import Collaps from "./Collaps";
 import Show from "./Show";
 import ships from "../data/spaceShips.json";
+import CollapsPalette from "./CollapsPalette.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class App extends React.Component {
       <li key={index}>
         <Collaps name={item.name}>
           <Show showName={item.from} />
+          <CollapsPalette />
         </Collaps>
       </li>
     ));

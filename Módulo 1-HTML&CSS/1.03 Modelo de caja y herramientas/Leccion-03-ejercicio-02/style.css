@@ -1,0 +1,21 @@
+.div1 {
+  height: 100px;
+  width: 100px;
+  /* display: block; */
+  /* display: inline; */
+  display: inline-block;
+}
+.div2 {
+  height: 100px;
+  width: 100px;
+  /* display: block; */
+  /* display: inline; */
+  display: inline-block;
+}
+.div3 {
+  height: 100px;
+  width: 100px;
+  /* display: block; */
+  display: inline-block;
+  /* display: inline; */
+}
